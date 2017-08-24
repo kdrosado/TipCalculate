@@ -4,14 +4,14 @@ TipCalculate is a tip calculator application for iOS.
 
 Submitted by: Kerry D. Rosado
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
-* [ ] Settings page to change the default tip percentage.
+* [ x ] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [ x ] Settings page to change the default tip percentage.
 
 The following **optional** features are implemented:
 * [ ] UI animations
@@ -37,11 +37,17 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1**: "What are your reactions to the iOS app development platform so far? How would you describe outlets and actions to another developer? Bonus: any idea how they are being implemented under the hood? (It might give you some ideas if you right-click on the Storyboard and click Open As->Source Code")
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** 
+The iOS app development platform is great to work with.  Look forward to working more with it to create more complex projects.
+
+An outlet connection is created when you need to send a message from your code to a user interface object in Xcode’s storyboard. The object can be a control, such as a button, a slider, and a switch, or it can be any other object defined in your storyboard, such as a label and a progress bar. For example, when your code determines that a label should display some texts, the code sends a message through the outlet telling the label to display the new text.
+
+An action connection is created when you need to send a message from a control in the storyboard to your code. A control is a user interface object that causes actions or visible results when a user manipulates the object. For example, when a user taps a button, the button sends an action message to your code telling it to execute the appropriate method. Other examples of controls that can be used to create action connections are text fields, sliders, and switches.
 
 Question 2: "Swift uses [Automatic Reference Counting](https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html#//apple_ref/doc/uid/TP40014097-CH20-ID49) (ARC), which is not a garbage collector, to manage memory. Can you explain how you can get a strong reference cycle for closures? (There's a section explaining this concept in the link, how would you summarize as simply as possible?)"
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** 
+
 
 
 ## License
